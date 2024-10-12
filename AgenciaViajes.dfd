@@ -1,0 +1,307 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+18
+Destino, Hospedaje
+11
+Como entero
+21
+CostoTotal, Descuento
+10
+Como real 
+9
+Continuar
+11
+Como cadena
+6
+1
+9
+Continuar
+4
+"Si"
+9
+1
+14
+Continuar="Si"
+4
+1
+178
+"Bienvenidos a nuestra agencia de viajes."
+ "Por favor, seleccione su destino:"
+"1. Playa ($500.000 por dia)"
+ "2. Montaña ($400.000 por dia)"
+ "3. Ciudad ($300.000 por dia)"
+5
+1
+7
+Destino
+9
+1
+20
+Destino <> 1 O 2 O 3
+4
+1
+48
+Ingresa la cantidad de dias que deseas quedarte:
+5
+1
+13
+DiasHospedaje
+9
+1
+24
+Diashospejade <= 0 Hacer
+4
+1
+59
+ "Por favor ingrese un numero de dias valido. (Mayor a 0):"
+5
+1
+13
+DiasHospedaje
+7
+0
+1
+2
+=1
+7
+0
+1
+2
+=2
+7
+0
+1
+2
+=3
+7
+0
+1
+2
+=4
+13
+4
+1
+59
+"Opcion no valida. Por favor seleccione un destino valido."
+13
+13
+6
+1
+10
+CostoTotal
+22
+Diashospejade * 300000
+4
+1
+30
+Destino seleccionado: Ciudad."
+7
+0
+1
+18
+Diashospejade >= 7
+7
+0
+1
+20
+ Diashospejade >= 3 
+7
+0
+1
+17
+DiasHospedaje = 0
+13
+4
+1
+71
+"Lo lamentamos, para ese tiempo de hospedaje no se aplican descuentos."
+13
+13
+6
+2
+9
+descuento
+18
+ CostoTotal * 0.10
+10
+CostoTotal
+22
+CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 10%"
+13
+13
+6
+2
+10
+descuento 
+17
+CostoTotal * 0.15
+11
+	CostoTotal
+23
+ CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 15%"
+13
+13
+13
+6
+1
+10
+CostoTotal
+22
+Diashospejade * 400000
+4
+1
+32
+"Destino seleccionado: Montaña."
+7
+0
+1
+19
+ Diashospejade >= 7
+7
+0
+1
+18
+Diashospejade >= 3
+7
+0
+1
+17
+DiasHospedaje = 0
+13
+4
+1
+71
+"Lo lamentamos, para ese tiempo de hospedaje no se aplican descuentos."
+13
+13
+6
+2
+9
+descuento
+17
+CostoTotal * 0.10
+11
+CostoTotal 
+22
+CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 10%"
+13
+13
+6
+2
+10
+descuento 
+17
+CostoTotal * 0.15
+10
+CostoTotal
+22
+CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 15%"
+13
+13
+13
+6
+1
+11
+Costo Total
+22
+Diashospejade * 500000
+4
+1
+30
+"Destino seleccionado: Playa."
+7
+0
+1
+19
+ Diashospejade >= 7
+7
+0
+1
+18
+Diashospejade >= 3
+7
+0
+1
+17
+DiasHospedaje = 0
+13
+4
+1
+71
+"Lo lamentamos, para ese tiempo de hospedaje no se aplican descuentos."
+13
+13
+6
+2
+9
+descuento
+17
+CostoTotal * 0.10
+11
+CostoTotal 
+22
+CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 10%"
+13
+13
+6
+2
+10
+descuento 
+17
+CostoTotal * 0.15
+10
+CostoTotal
+22
+CostoTotal - descuento
+4
+1
+64
+"Por el tiempo de hospedaje se ha aplicado un descuento del 15%"
+13
+13
+4
+1
+47
+ "El costo total de tu viaje es: $", CostoTotal
+4
+1
+39
+"¿Desea realizar otra reserva? (si/no)"
+5
+1
+9
+Continuar
+11
+11
+4
+1
+76
+Gracias por elegir nuestra agencia de viajes. Ten un lindo dia. Hasta Luego.
+11
+1
